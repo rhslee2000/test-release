@@ -12,6 +12,7 @@ public class OpsSeleniumApplication {
 	@Bean
 	WebDriver webDriver() {
 		// TODO setup capabilities
+		// some change for 0.0.2
 		return new ChromeDriver();
 	}
 
